@@ -6,7 +6,8 @@ MAINTAINER Timo Furrer <tuxtimo@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 
 # the version of sqlmap to use
-ENV SQLMAP_VERSION 1.0.11
+#ENV SQLMAP_VERSION 1.0.11
+ENV SQLMAP_VERSION master
 
 # install git to clone sqlmap
 RUN apt-get update
